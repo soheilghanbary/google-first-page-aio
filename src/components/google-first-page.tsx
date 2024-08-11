@@ -147,7 +147,7 @@ export default function Component() {
   );
 }
 
-function AppWindowIcon(props) {
+function AppWindowIcon(props: any) {
   return (
     <svg
       {...props}
@@ -169,7 +169,7 @@ function AppWindowIcon(props) {
   );
 }
 
-function ChromeIcon(props) {
+function ChromeIcon(props: any) {
   return (
     <svg
       {...props}
@@ -192,7 +192,7 @@ function ChromeIcon(props) {
   );
 }
 
-function SearchIcon(props) {
+function SearchIcon(props: any) {
   return (
     <svg
       {...props}
